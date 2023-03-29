@@ -17,6 +17,7 @@ iframe {
 
 body {
     background-color: #E6C7AF;
+	text-align: justify;
   }
 
 * {
@@ -125,6 +126,8 @@ header nav#menu-area ul li ul.submenu-1 li:hover ul.submenu-2 {
 
 .mainfont{
 	font-family: "acumin-variable", sans-serif;
+font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700;
+	color: #541C1C;
 }
 
 .iframe_size {
@@ -137,4 +140,15 @@ header nav#menu-area ul li ul.submenu-1 li:hover ul.submenu-2 {
 
 .classvideo {
 	height: 100px;
+}
+
+.margindown {
+	
+	margin-bottom: 50px;
+}
+
+.marginside {
+	
+	margin-left: 85px;
+	margin-right: 85px;
 }
