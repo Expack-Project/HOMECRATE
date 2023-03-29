@@ -16,7 +16,7 @@ iframe {
 */
 
 body {
-    background-color: #9F5B31;
+    background-color: #E6C7AF;
   }
 
 * {
@@ -125,8 +125,6 @@ header nav#menu-area ul li ul.submenu-1 li:hover ul.submenu-2 {
 
 .mainfont{
 	font-family: "acumin-variable", sans-serif;
-	font: bold; 
-	color: #E6C7AF
 }
 
 .iframe_size {
