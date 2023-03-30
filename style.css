@@ -18,6 +18,7 @@ iframe {
 body {
     background-color: #E6C7AF;
 	text-align: justify;
+	overflow-x: hidden;
   }
 
 * {
