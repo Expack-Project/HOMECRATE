@@ -149,6 +149,6 @@ font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700;
 
 .marginside {
 	
-	margin-left: 85px;
-	margin-right: 85px;
+	margin-left: auto;
+    margin-right: auto;
 }
