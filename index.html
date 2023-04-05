@@ -27,15 +27,20 @@
    <style>
     .nav-link {
         font-family: "acumin-variable", sans-serif;
-font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700;
-	color: #541C1C;
+        font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700;
+	    color: #E6C7AF;
+    }
+
+    a:hover {
+
+        color:#a5866e;
     }
 </style>
 
 <!-- Transparent Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <a class="navbar-brand" href="#">
-        <img src="images/homecratelogo.jpg" alt="Logo" width="80" height="auto" class="d-inline-block align-text-top">
+        <img src="images/homecratelogobig.png" alt="Logo" width="50" height="auto" class="d-inline-block align-text-top">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -43,49 +48,39 @@ font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700;
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="index.html">HOME</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="visuals.html">Values</a>
+                <a class="nav-link" href="values.html">VALUES</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="team.html">Visuals</a>
+                <a class="nav-link" href="#">VISUALS</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="team.html">About</a>
+                <a class="nav-link" href="#">MARKETING</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">PRODUCT</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">CONTACT</a>
             </li>
         </ul>
     </div>
 </nav>
 
     <!-- Video Section -->
-	
-   <style>
-    @media (max-width: 576px) {
-        .embed-responsive {
-            margin-bottom: -5rem;
-        }
-        .embed-responsive iframe {
-            margin-top: -15%;
-        }
-    }
-    @media (min-width: 577px) {
-        .embed-responsive {
-            margin-bottom: -24rem;
-        }
-        .embed-responsive iframe {
-            margin-top: -25%;
-        }
-    }
-</style>
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="video-container">
+   <!--  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10;"></div>    -->
     <iframe 
-            src="https://www.youtube.com/embed/ScMzIvxBSi4?&autoplay=1&controls=0&loop=1&playlist=ScMzIvxBSi4&mute=1"
+            src="https://www.youtube.com/embed/vr0qNXmkUJ8?start=12&autoplay=1&controls=0&loop=1&playlist=vr0qNXmkUJ8&mute=1"
             frameborder="0"
-            allowfullscreen
-            style="height: 100%; width: 100%;">
+            allowfullscreen>
     </iframe>
+    <div class="overlay">
+        <h2 class="secondfont"> HOMECRATE </h2>
+    </div>
 </div>
 
 <!-- Carousel -->
@@ -116,9 +111,9 @@ font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700;
     <!-- Content Area -->
 	
     <div class="container-fluid margindown marginside ">
-        <div class="row col-10 mx-auto">
+        <div class="row col-8 mx-auto">
             <div class="col">
-				<h1 class= "mainfont">HOMECRATE</h1>
+				<h1 class= "headfont">&nbsp;&nbsp;HOMECRATE</h1>
 				            
             <p class= "mainfont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum, ipsum nec lacinia feugiat, erat lorem tempus velit, ut consequat libero turpis a mauris. <br><br>Fusce aliquam volutpat libero, non congue erat condimentum at. Donec tincidunt dolor vitae tortor pellentesque euismod. Etiam venenatis sapien et quam dapibus, eget vehicula odio pharetra.</p>
         </div>
@@ -144,14 +139,30 @@ font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700;
     <!-- Content Area -->
 	
     <div class="container-fluid margindown marginside ">
-        <div class="row col-10 mx-auto">
+        <div class="row col-8 mx-auto">
             <div class="col">
-				<h1 class= "mainfont">AND?..</h1>
+				<h1 class= "headfont">&nbsp;&nbsp;AND?..</h1>
 				            
             <p class= "mainfont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum, ipsum nec lacinia feugiat, erat lorem tempus velit, ut consequat libero turpis a mauris.Fusce aliquam volutpat libero, non congue erat condimentum at. Donec tincidunt dolor vitae tortor pellentesque euismod. Etiam venenatis sapien et quam dapibus, eget vehicula odio pharetra.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum, ipsum nec lacinia feugiat, erat lorem tempus velit, ut consequat libero turpis a mauris.Fusce aliquam volutpat libero, non congue erat condimentum at. Donec tincidunt dolor vitae tortor pellentesque euismod. Etiam venenatis sapien et quam dapibus, eget vehicula odio pharetra.</p>
         </div>
     </div>
 </div>
+
+<div class="container-fluid">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="text-muted">&copy; 2023 Homecrate</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/home.crate/"><img src="images/instagram.svg" class="bi" width="24" height="24"></a></li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/profile.php?id=100090914391549"><img src="images/facebook.svg" class="bi" width="24" height="24"></a></li> &nbsp;&nbsp;
+      </ul>
+    </footer>
+  </div>
 
 
 <!-- jQuery and Bootstrap JS -->
