@@ -155,6 +155,18 @@ font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700;
 	font-weight: bold;
 }
 
+.headfont2{
+	font-family: 'Poppins', sans-serif;
+font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700;
+    color: #541C1C;
+    font-size: 50px;
+	padding-top: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: calc(1.3vw + 1.3vh);
+	font-weight: bold;
+}
+
 .mainfont{
 	font-family: 'Poppins', sans-serif;
 font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700;
@@ -195,6 +207,11 @@ font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700;
 	
 	margin-left: auto;
     margin-right: auto;
+}
+
+.marginup {
+	
+	margin-top: 100px;
 }
 
 .centersam {
