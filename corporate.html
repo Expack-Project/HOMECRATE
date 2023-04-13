@@ -149,590 +149,604 @@
         <h2 id="production" class="mt-5">Production</h2>
         <h4 id="production-1" class="mt-2">Design Elements</h4>
         <p>Please provide a list of design elements alongside their justifications:</p>
-            A colour scheme:
+        A colour scheme:
 
-            <ul class="list-unstyled">
-              <li>
-                <span class="border border-secondary rounded px-2 me-1" style="background-color: #541C1C;"></span>
-                #541C1C
-                <em>Rich Maroon: This deep, warm hue exudes a sense of sophistication and stability,
-                  instilling confidence and trust in the brand. The rich maroon also creates a feeling of warmth
-                  and comfort, reflecting the nostalgic and homely essence of Homecrate's service.</em>
-              </li>
-              <li>
-                <span class="border border-secondary rounded px-2 me-1" style="background-color: #9F5B31;"></span>
-                #9F5B31
-                <em>Warm Brown: This earthy, inviting color evokes feelings of familiarity and reliability,
-                  resonating with the brand's commitment to connecting expats with their roots. The warm
-                  brown also embodies the natural and authentic elements of the carefully curated packages,
-                  highlighting Homecrate's dedication to delivering genuine, heartfelt experiences.</em>
-              </li>
-              <li>
-                <span class="border border-secondary rounded px-2 me-1" style="background-color: #E6C7AF;"></span>
-                #E6C7AF
-                <em>Soft Beige: This gentle, neutral tone complements the richer colors, adding a sense
-                  of balance and harmony to the overall palette. The soft beige represents the warmth,
-                  comfort, and inclusivity that Homecrate aims to provide to expats from all backgrounds,
-                  creating a welcoming and nurturing atmosphere.</em>
-              </li>
-            </ul>
-            <p>Font Choices:</p>
-            <em>Homecrate uses the Poppins font family, which is known for its friendly and
-              approachable appearance. We chose it because of its simplicity and minimalist look paired with
-              a very circular, soft shape. This combination works well for us, since we want to appear
-              contemporary, but also very warm, homely and friendly.
-              The various weights and styles of Poppins allow for flexibility in creating a visual hierarchy
-              and emphasizing key information, making the content easily digestible and reinforcing
-              the brand's commitment to clear communication.</em>
-            <p>User Interface Patterns:</p>
+        <ul class="list-unstyled">
+          <li>
+            <span class="border border-secondary rounded px-2 me-1" style="background-color: #541C1C;"></span>
+            #541C1C
+            <em>Rich Maroon: This deep, warm hue exudes a sense of sophistication and stability,
+              instilling confidence and trust in the brand. The rich maroon also creates a feeling of warmth
+              and comfort, reflecting the nostalgic and homely essence of Homecrate's service.</em>
+          </li>
+          <li>
+            <span class="border border-secondary rounded px-2 me-1" style="background-color: #9F5B31;"></span>
+            #9F5B31
+            <em>Warm Brown: This earthy, inviting color evokes feelings of familiarity and reliability,
+              resonating with the brand's commitment to connecting expats with their roots. The warm
+              brown also embodies the natural and authentic elements of the carefully curated packages,
+              highlighting Homecrate's dedication to delivering genuine, heartfelt experiences.</em>
+          </li>
+          <li>
+            <span class="border border-secondary rounded px-2 me-1" style="background-color: #E6C7AF;"></span>
+            #E6C7AF
+            <em>Soft Beige: This gentle, neutral tone complements the richer colors, adding a sense
+              of balance and harmony to the overall palette. The soft beige represents the warmth,
+              comfort, and inclusivity that Homecrate aims to provide to expats from all backgrounds,
+              creating a welcoming and nurturing atmosphere.</em>
+          </li>
+        </ul>
+        <p>Font Choices:</p>
+        <em>Homecrate uses the Poppins font family, which is known for its friendly and
+          approachable appearance. We chose it because of its simplicity and minimalist look paired with
+          a very circular, soft shape. This combination works well for us, since we want to appear
+          contemporary, but also very warm, homely and friendly.
+          The various weights and styles of Poppins allow for flexibility in creating a visual hierarchy
+          and emphasizing key information, making the content easily digestible and reinforcing
+          the brand's commitment to clear communication.</em>
+        <p>User Interface Patterns:</p>
 
+        <ul>
+          <li><em><strong>Navigation bar:</strong> A horizontal navigation bar that provides users with easy
+              access to different pages on the website. The navigation links include Home, Values, Visuals,
+              Corporate, Product, and Contact.</em></li>
+          <li><em><strong>Dropdown menu (phone only):</strong> The navigation bar is responsive and collapses into a
+              dropdown menu when the website is viewed on mobile devices. This is implemented using the
+              Bootstrap "navbar-toggler" class and a button that toggles the menu's visibility.</em></li>
+          <li><em><strong>Links:</strong> The navigation links are used to navigate the website, directing users to
+              the
+              corresponding pages. These are created using the "nav-link" class.</em></li>
+          <li><em><strong>Carousel:</strong> A carousel is used to showcase a series of images in a slideshow
+              format.
+              The carousel is created using the "carousel" class and related attributes to control its
+              behavior, such as autoplay, looping, and navigation controls.</em></li>
+          <li><em><strong>iframe (video box):</strong> An iframe is used to embed a YouTube video on the website.
+              The
+              video is set to autoplay, loop, and mute, with controls hidden. The iframe is wrapped in
+              a "video-container" div, which also includes an overlay with the brand name.</em></li>
+          <li><em><strong>Text box:</strong> Text boxes are used for submitting an email address when signing up for
+              the Homecrate
+              newsletter, as well as sending us a custom message.</em></li>
+          <li><em><strong>Button:</strong> Buttons are used for submitting a message for Homecrate, subscribing to
+              the
+              newsletter, and visiting our Facebook and Instagram pages.</em></li>
+          <li><em><strong>Footer:</strong> The footer contains copyright information, social media icons, and links
+              to
+              the brand's social media pages. It is styled using the "sticky-bottom" class to ensure it
+              stays at the bottom of the page.</em></li>
+          <li><em><strong>Grids:</strong> The layout of the content is organized using Bootstrap's grid system, with
+              "container-fluid," "row," and "col" classes to create a responsive and flexible layout.</em></li>
+          <li><em><strong>Divs:</strong> The content is wrapped in div elements to group and style related elements.
+              These
+              divs are used in conjunction with the Bootstrap grid system to create a structured and organized
+              layout.</em></li>
+        </ul>
+        <p>Structure of the Navigation and Content:</p>
+        <em>The navigation is organized into a horizontal main menu, which provides easy browsing and
+          access to content categories. While the desktop version does not have dropdown submenus, the
+          mobile version features a submenu, ensuring a responsive and consistent user experience across
+          different devices. The main content area uses flex containers, which enable organized content
+          distribution and adaptability to various screen sizes. This organization allows for an intuitive
+          and user-friendly browsing experience, tailored to the needs of Homecrate's expat customers who
+          may be accessing the website from different devices and locations.</em>
+
+        <h4 id="production-2.4" class="mt-2">Website Purpose</h4>
+        <p>The purpose of this website - pre-launch website for our brand.</p>
+        <p>There are a few reasons why it makes sense for Homecrate to have a pre-launch website:</p>
+        <ul>
+          <li><em>
+              Our pre-launch
+              website is a great way for us to spark interest in Homecrate before the big day arrives.
+              By giving future customers a sneak peek at what we have to offer, we're igniting their curiosity and
+              creating a buzz around our brand, setting the stage for a successful launch.
+            </em></li>
+          <li><em>
+              Additionally, the website helps us understand our audience better. We can see what catches their
+              attention,
+              gather their feedback, and use this valuable information to fine-tune our offerings and marketing
+              strategies.
+              It's like having a conversation with our potential customers, making sure we're on the right track.
+            </em></li>
+          <li><em>
+              Additionally, the website helps us understand our audience better. We can see what catches their
+              attention,
+              gather their feedback, and use this valuable information to fine-tune our offerings and marketing
+              strategies.
+              It's like having a conversation with our potential customers, making sure we're on the right track.
+            </em></li>
+          <li><em>
+              Lastly, the website is our playground for perfecting our message and brand positioning. By observing
+              how visitors
+              interact with our content and listening to their input, we can craft a communication strategy that
+              truly
+              resonates with our target audience, ensuring that our voice is both clear and compelling.
+            </em></li>
+        </ul>
+
+        <h4 id="production-2.5" class="mt-2">Limitations</h4>
+        <p>Technical and circumstancial limitations asociated with development of the website</p>
+        <ul>
+          <li>Video Player Loading - When the video in the iframe loads, it's possible to see the title of
+            the video, as well as the navigation options. Unfortunately I found no way of hiding this, other than
+            cropping
+            the video, which presented a separate set of issues.
+          </li>
+          <li>Video Player not autoplaying on mobile - On mobile, the video in the iframe does not autoplay; this is
+            because of limitations imposed by youtube, and since there is a div covering the video (to prevent
+            interaction)
+            it is not possible to play it at all. This could potentially be fixed by making a javascript which would
+            click
+            on the video, and afterwards make it non-interactible; however, this task was above my abilities.
+          </li>
+          <li>We could not find people availible for website testing specifically in our nieche (Expats) so we asked
+            our classmates and frineds, a lot of whom, while not expacts by definition (because students do not
+            officially
+            count as expats), do come from different countries, making their experience similar in many ways.
+          </li>
+          <li>Our "Newsletter" and "Message us" options actually lead nowhere; this is because we are not actually
+            gathering
+            any data or emails. They are just a proof of concept.
+          </li>
+          <li>Also, the "Newsletter" and "Message us" options were very late additions, and therfore, were not part
+            of the first
+            couple of testing. Had we had them earlier, we would have included them; however, as it is, only the
+            later interviews
+            now have this question.
+          </li>
+        </ul>
+
+        <h4 id="production-2" class="mt-2">Credits</h4>
+        <ul>
+          <li>HTML templates: None (this "corporate" page is the only template)</li>
+          <li>The source code for UX patterns other than the ones provided by the “Bootstrap” library: None (all are
+            bootstrap or original)</li>
+          <li>Images and videos that were not produced by students:
+            <a href="https://www.iconfinder.com/icons/5296765/camera_instagram_instagram_logo_icon"
+              target="_blank">Instagram Icon</a>
+            <a href="https://www.youtube.com/embed/eq7rPAAuPto?start=0&autoplay=1&controls=0&loop=1&playlist=eq7rPAAuPto&mute=1"
+              target="_blank">Youtube Stock Package Video</a>
+            <a href="https://www.iconfinder.com/icons/5296499/fb_facebook_facebook_logo_icon" target="_blank">Facebook
+              Icon</a>
+          </li>
+        </ul>
+        <h4 id="production-3" class="mt-2">Testing Report</h4>
+        <ul>
+          <li>Your testing goals: what you are trying to learn about your website?
             <ul>
-              <li><em><strong>Navigation bar:</strong> A horizontal navigation bar that provides users with easy
-                  access to different pages on the website. The navigation links include Home, Values, Visuals,
-                  Corporate, Product, and Contact.</em></li>
-              <li><em><strong>Dropdown menu (phone only):</strong> The navigation bar is responsive and collapses into a
-                  dropdown menu when the website is viewed on mobile devices. This is implemented using the
-                  Bootstrap "navbar-toggler" class and a button that toggles the menu's visibility.</em></li>
-              <li><em><strong>Links:</strong> The navigation links are used to navigate the website, directing users to
-                  the
-                  corresponding pages. These are created using the "nav-link" class.</em></li>
-              <li><em><strong>Carousel:</strong> A carousel is used to showcase a series of images in a slideshow
-                  format.
-                  The carousel is created using the "carousel" class and related attributes to control its
-                  behavior, such as autoplay, looping, and navigation controls.</em></li>
-              <li><em><strong>iframe (video box):</strong> An iframe is used to embed a YouTube video on the website.
-                  The
-                  video is set to autoplay, loop, and mute, with controls hidden. The iframe is wrapped in
-                  a "video-container" div, which also includes an overlay with the brand name.</em></li>
-              <li><em><strong>Text box:</strong> Text boxes are used for submitting an email address when signing up for
-                  the Homecrate
-                  newsletter, as well as sending us a custom message.</em></li>
-              <li><em><strong>Button:</strong> Buttons are used for submitting a message for Homecrate, subscribing to
-                  the
-                  newsletter, and visiting our Facebook and Instagram pages.</em></li>
-              <li><em><strong>Footer:</strong> The footer contains copyright information, social media icons, and links
-                  to
-                  the brand's social media pages. It is styled using the "sticky-bottom" class to ensure it
-                  stays at the bottom of the page.</em></li>
-              <li><em><strong>Grids:</strong> The layout of the content is organized using Bootstrap's grid system, with
-                  "container-fluid," "row," and "col" classes to create a responsive and flexible layout.</em></li>
-              <li><em><strong>Divs:</strong> The content is wrapped in div elements to group and style related elements.
-                  These
-                  divs are used in conjunction with the Bootstrap grid system to create a structured and organized
-                  layout.</em></li>
+              <li>Since our website is a pre-launch website, we are mainly trying to learn how well visitors
+                can navigate the basic layout and find out information about the brand. The website is quite
+                simple in its structure, only having the one navigation which leads to the different parts of
+                the page. As a result, in our testing, we tested how effectively visitors can reach and find
+                different information about our company.
             </ul>
-            <p>Structure of the Navigation and Content:</p>
-            <em>The navigation is organized into a horizontal main menu, which provides easy browsing and
-              access to content categories. While the desktop version does not have dropdown submenus, the
-              mobile version features a submenu, ensuring a responsive and consistent user experience across
-              different devices. The main content area uses flex containers, which enable organized content
-              distribution and adaptability to various screen sizes. This organization allows for an intuitive
-              and user-friendly browsing experience, tailored to the needs of Homecrate's expat customers who
-              may be accessing the website from different devices and locations.</em>
-
-            <h4 id="production-2.4" class="mt-2">Website Purpose</h4>
-            <p>The purpose of this website - pre-launch website for our brand.</p>
-            <p>There are a few reasons why it makes sense for Homecrate to have a pre-launch website:</p>
+          </li>
+          <li>Your testing methods which includes information about:
             <ul>
-              <li><em>
-                  Our pre-launch
-                  website is a great way for us to spark interest in Homecrate before the big day arrives.
-                  By giving future customers a sneak peek at what we have to offer, we're igniting their curiosity and
-                  creating a buzz around our brand, setting the stage for a successful launch.
-                </em></li>
-              <li><em>
-                  Additionally, the website helps us understand our audience better. We can see what catches their
-                  attention,
-                  gather their feedback, and use this valuable information to fine-tune our offerings and marketing
-                  strategies.
-                  It's like having a conversation with our potential customers, making sure we're on the right track.
-                </em></li>
-              <li><em>
-                  Additionally, the website helps us understand our audience better. We can see what catches their
-                  attention,
-                  gather their feedback, and use this valuable information to fine-tune our offerings and marketing
-                  strategies.
-                  It's like having a conversation with our potential customers, making sure we're on the right track.
-                </em></li>
-              <li><em>
-                  Lastly, the website is our playground for perfecting our message and brand positioning. By observing
-                  how visitors
-                  interact with our content and listening to their input, we can craft a communication strategy that
-                  truly
-                  resonates with our target audience, ensuring that our voice is both clear and compelling.
-                </em></li>
+              <li>The test&rsquo;s <b>participants</b>(number, match with target audience, etc.) - 6 participants,
+                most
+                of them foreigners, though none specifically labeled “Expats”, as they were all students, and
+                expats must be full time workers. It included both men and women, from the ages of 19 - 24.
+              <li>The test&rsquo;s <b>setting</b> (which material is used, is it done remotely, on campus, at home,
+                etc.) -
+                The test was conducted with simple verbal instructions, a new one given every time a task has
+                been completed. It was done on campus, with a variety of devices.
+              <li>The test&rsquo;s <b>protocol</b> (what instructions are given, how it is recorded, etc.) -
+                Instructions:
+                [Find and read through our values - Then, go to the home page, and read about the founders of
+                Homecrate - Then, find the font we use - Then, use our website to go directly to our Facebook
+                profile - Lastly, sign up to our newsletter, or send us a message]. We recorded the screen and
+                participants using a phone camera, always assigning a new task when the previous one was
+                completed and intervening as little as possible.
             </ul>
-
-            <h4 id="production-2.5" class="mt-2">Limitations</h4>
-            <p>Technical and circumstancial limitations asociated with development of the website</p>
+          </li>
+          <li>Your testing results, which includes information about:
             <ul>
-              <li>Video Player Loading - When the video in the iframe loads, it's possible to see the title of
-                the video, as well as the navigation options. Unfortunately I found no way of hiding this, other than
-                cropping
-                the video, which presented a separate set of issues.
-              </li>
-              <li>Video Player not autoplaying on mobile - On mobile, the video in the iframe does not autoplay; this is
-                because of limitations imposed by youtube, and since there is a div covering the video (to prevent
-                interaction)
-                it is not possible to play it at all. This could potentially be fixed by making a javascript which would
-                click
-                on the video, and afterwards make it non-interactible; however, this task was above my abilities.
-              </li>
-              <li>We could not find people availible for website testing specifically in our nieche (Expats) so we asked
-                our classmates and frineds, a lot of whom, while not expacts by definition (because students do not
-                officially
-                count as expats), do come from different countries, making their experience similar in many ways.
-              </li>
-              <li>Our "Newsletter" and "Message us" options actually lead nowhere; this is because we are not actually
-                gathering
-                any data or emails. They are just a proof of concept.
-              </li>
-              <li>Also, the "Newsletter" and "Message us" options were very late additions, and therfore, were not part
-                of the first
-                couple of testing. Had we had them earlier, we would have included them; however, as it is, only the
-                later interviews
-                now have this question.
-              </li>
-            </ul>
+              <li>Positive and negative aspects of the UI/UX that have been identified, ranked by importance.</li>
+              <li>Positives: #1 Nobody was confused about navigating the actual site, #2 the menu was clear, and
+                visitors
+                were able to identify the different buttons to move around. #3 They were all able to find all the
+                information in a relatively timely manner.</li>
+              <li>Negatives: #1 People were also trying
+                to go back to the home page by clicking the homecrate logo, which only took them to the top of
+                the current page. #2 Some people got confused when asked to find the information about the founders,
+                for which they had to scroll down the home page, a lot of them went to the then present
+                “contacts” tab. #3 Some also clicked on elements which were not clickable.</li>
 
-            <h4 id="production-2" class="mt-2">Credits</h4>
-            <ul>
-              <li>HTML templates: None (this "corporate" page is the only template)</li>
-              <li>The source code for UX patterns other than the ones provided by the “Bootstrap” library: None (all are
-                bootstrap or original)</li>
-              <li>Images and videos that were not produced by students:
-                <a href="https://www.iconfinder.com/icons/5296765/camera_instagram_instagram_logo_icon"
-                  target="_blank">Instagram Icon</a>
-                <a href="https://www.youtube.com/embed/eq7rPAAuPto?start=0&autoplay=1&controls=0&loop=1&playlist=eq7rPAAuPto&mute=1"
-                  target="_blank">Youtube Stock Package Video</a>
-                <a href="https://www.iconfinder.com/icons/5296499/fb_facebook_facebook_logo_icon"
-                  target="_blank">Facebook Icon</a>
-              </li>
+              <li>Improvements that have been implemented on the final website (or that would be implemented
+                if doing so would be too complex) - “Contact” page was specified to “contact us”, and a space
+                to leave a message and email was added. This was both to capture visitors and start building
+                a base, but also to make it more clear what the point of the page is. Also, links to our
+                Facebook and Instagram were added to the “Contact us” page; previously they were only in
+                the footer, making them hard to find. Info from “Product” page was moved to home page,
+                to reduce the number of clickable items. At the bottom of the home page, the option to
+                subscribe to our newsletter was added, so that we can start to build a base of customers.
+                we also made the homecrate logo in the top left corner take visitors back to the home page,
+                instead of the top of the current page, becasue we observed that that was the way people tried to
+                use it most of the time.</li>
             </ul>
-            <h4 id="production-3" class="mt-2">Testing Report</h4>
-            <ul>
-              <li>Your testing goals: what you are trying to learn about your website?
-                <ul>
-                  <li>Since our website is a pre-launch website, we are mainly trying to learn how well visitors
-                    can navigate the basic layout and find out information about the brand. The website is quite
-                    simple in its structure, only having the one navigation which leads to the different parts of
-                    the page. As a result, in our testing, we tested how effectively visitors can reach and find
-                    different information about our company.
-                </ul>
-              </li>
-              <li>Your testing methods which includes information about:
-                <ul>
-                  <li>The test&rsquo;s <b>participants</b>(number, match with target audience, etc.) - 6 participants,
-                    most
-                    of them foreigners, though none specifically labeled “Expats”, as they were all students, and
-                    expats must be full time workers. It included both men and women, from the ages of 19 - 24.
-                  <li>The test&rsquo;s <b>setting</b> (which material is used, is it done remotely, on campus, at home,
-                    etc.) -
-                    The test was conducted with simple verbal instructions, a new one given every time a task has
-                    been completed. It was done on campus, with a variety of devices.
-                  <li>The test&rsquo;s <b>protocol</b> (what instructions are given, how it is recorded, etc.) -
-                    Instructions:
-                    [Find and read through our values - Then, go to the home page, and read about the founders of
-                    Homecrate - Then, find the font we use - Then, use our website to go directly to our Facebook
-                    profile - Lastly, sign up to our newsletter, or send us a message]. We recorded the screen and
-                    participants using a phone camera, always assigning a new task when the previous one was
-                    completed and intervening as little as possible.
-                </ul>
-              </li>
-              <li>Your testing results, which includes information about:
-                <ul>
-                  <li>Positive and negative aspects of the UI/UX that have been identified, ranked by importance.</li>
-                  <li>Positives: #1 Nobody was confused about navigating the actual site, #2 the menu was clear, and
-                    visitors
-                    were able to identify the different buttons to move around. #3 They were all able to find all the
-                    information in a relatively timely manner.</li>
-                  <li>Negatives: #1 People were also trying
-                    to go back to the home page by clicking the homecrate logo, which only took them to the top of
-                    the current page. #2 Some people got confused when asked to find the information about the founders,
-                    for which they had to scroll down the home page, a lot of them went to the then present
-                    “contacts” tab. #3 Some also clicked on elements which were not clickable.</li>
+          </li>
+        </ul>
 
-                  <li>Improvements that have been implemented on the final website (or that would be implemented
-                    if doing so would be too complex) - “Contact” page was specified to “contact us”, and a space
-                    to leave a message and email was added. This was both to capture visitors and start building
-                    a base, but also to make it more clear what the point of the page is. Also, links to our
-                    Facebook and Instagram were added to the “Contact us” page; previously they were only in
-                    the footer, making them hard to find. Info from “Product” page was moved to home page,
-                    to reduce the number of clickable items. At the bottom of the home page, the option to
-                    subscribe to our newsletter was added, so that we can start to build a base of customers.
-                    we also made the homecrate logo in the top left corner take visitors back to the home page,
-                    instead of the top of the current page, becasue we observed that that was the way people tried to
-                    use it most of the time.</li>
-                </ul>
-              </li>
-            </ul>
+        <!-- End Production, start Marketing -->
 
-            <!-- End Production, start Marketing -->
+        <h2 id="marketing" class="mt-5">Marketing</h2>
+        <h4 id="marketing-1" class="mt-2">Context of campaign and promotional activities</h4>
+        <p>Explain the context of the campaign is (What the campaign is about, what the message is, which
+          promotional activities were executed). In addition, present the objectives as mentioned in the
+          Communication & Media Plan. Explain and justify the chosen channels/platforms used and show there is a
+          solid connection to
+          the objectives established in the Communication & Media Plan.</p>
+        <ul>
+          <li><em>The Homecrate marketing campaign is designed to connect with the expat community by evoking
+              feelings of
+              nostalgia, promoting cultural pride, and fostering a sense of belonging among its audience. The
+              campaign's
+              primary message is to enable expats to cherish their cultural roots and create a strong bond with
+              other
+              expats
+              who share similar experiences.</em></li>
+          <li><em>The marketing campaign includes a six-week content calendar that features a variety of promotional
+              activities
+              such as sharing trivia about different home countries, landscapes or landmarks, recipes,
+              cultural traditions, and interactive posts that encourage community growth and engagement.</em></li>
+          <li><em>Our objectives were to Increase Instagram followers to 100 by the end of the six-week campaign,
+              increase
+              Facebook followers to 20 by the end of the six-week campaign, encourage audience engagement on both
+              platforms,
+              aiming for an average of 10 likes and 2 comments per post. Unfortunately, by the end of the six-week
+              campaign,
+              we only managed to gain 26 Instagram followers and 4 Facebook followers. Although we experienced some
+              growth,
+              it was quite a bit lower than our initial objectives.</em></li>
+          <li><em>The chosen channels for this campaign are Instagram and Facebook, which are popular platforms for
+              sharing
+              visual content and enabling easy interaction among users. These platforms align
+              well with the campaign's objectives, as they provide opportunities for expats to engage with the
+              content,
+              share their stories, and connect with one another.</em></li>
+        </ul>
+        <h4 id="marketing-2" class="mt-4">Learning Points</h4>
+        <p>Identify and justify your learning point (based on the Communication & Media Plan). What did you learn
+          during the duration of the project concerning the campaign? What worked and what didn't? What went as
+          expected and what didn't? What would you do differently? Reflect on the past work and describe what you
+          learned.</p>
+        <ul>
+          <li><em>The main thing we learned was that marketing on social media is about a lot more than just
+              posting.
+              While
+              many of the posts weren't bad, the lack of interaction and communication outside of them meant that
+              our
+              social
+              media did not grow nearly as fast as we had hoped. There seemed to be a lack of momentum in the
+              campaign,
+              and
+              after an initial influx, the numbers stagnated. If we were to do it again, we would focus more on
+              active
+              interaction and engagement, and trying to create and upkeep momentum, rather than just post
+              mindlessly.</em></li>
+        </ul>
+        <h4 id="marketing-3" class="mt-4">Future Planning</h4>
+        <p>Reflection on what has been done and describe in detail what you would do if the project would continue.
+          Describe in detail your future recommendations if the campaign would be continued.
+          Detail and describe clearly the process of what you would do differently based on your experience on
+          this project related to the marketing assignment.</p>
 
-            <h2 id="marketing" class="mt-5">Marketing</h2>
-            <h4 id="marketing-1" class="mt-2">Context of campaign and promotional activities</h4>
-            <p>Explain the context of the campaign is (What the campaign is about, what the message is, which
-              promotional activities were executed). In addition, present the objectives as mentioned in the
-              Communication & Media Plan. Explain and justify the chosen channels/platforms used and show there is a
-              solid connection to
-              the objectives established in the Communication & Media Plan.</p>
-            <ul>
-              <li><em>The Homecrate marketing campaign is designed to connect with the expat community by evoking
-                  feelings of
-                  nostalgia, promoting cultural pride, and fostering a sense of belonging among its audience. The
-                  campaign's
-                  primary message is to enable expats to cherish their cultural roots and create a strong bond with
-                  other
-                  expats
-                  who share similar experiences.</em></li>
-              <li><em>The marketing campaign includes a six-week content calendar that features a variety of promotional
-                  activities
-                  such as sharing trivia about different home countries, landscapes or landmarks, recipes,
-                  cultural traditions, and interactive posts that encourage community growth and engagement.</em></li>
-              <li><em>Our objectives were to Increase Instagram followers to 100 by the end of the six-week campaign,
-                  increase
-                  Facebook followers to 20 by the end of the six-week campaign, encourage audience engagement on both
-                  platforms,
-                  aiming for an average of 10 likes and 2 comments per post. Unfortunately, by the end of the six-week
-                  campaign,
-                  we only managed to gain 26 Instagram followers and 4 Facebook followers. Although we experienced some
-                  growth,
-                  it was quite a bit lower than our initial objectives.</em></li>
-              <li><em>The chosen channels for this campaign are Instagram and Facebook, which are popular platforms for
-                  sharing
-                  visual content and enabling easy interaction among users. These platforms align
-                  well with the campaign's objectives, as they provide opportunities for expats to engage with the
-                  content,
-                  share their stories, and connect with one another.</em></li>
-            </ul>
-            <h4 id="marketing-2" class="mt-4">Learning Points</h4>
-            <p>Identify and justify your learning point (based on the Communication & Media Plan). What did you learn
-              during the duration of the project concerning the campaign? What worked and what didn't? What went as
-              expected and what didn't? What would you do differently? Reflect on the past work and describe what you
-              learned.</p>
-            <ul>
-              <li><em>The main thing we learned was that marketing on social media is about a lot more than just
-                  posting.
-                  While
-                  many of the posts weren't bad, the lack of interaction and communication outside of them meant that
-                  our
-                  social
-                  media did not grow nearly as fast as we had hoped. There seemed to be a lack of momentum in the
-                  campaign,
-                  and
-                  after an initial influx, the numbers stagnated. If we were to do it again, we would focus more on
-                  active
-                  interaction and engagement, and trying to create and upkeep momentum, rather than just post
-                  mindlessly.</em></li>
-            </ul>
-            <h4 id="marketing-3" class="mt-4">Future Planning</h4>
-            <p>Reflection on what has been done and describe in detail what you would do if the project would continue.
-              Describe in detail your future recommendations if the campaign would be continued.
-              Detail and describe clearly the process of what you would do differently based on your experience on
-              this project related to the marketing assignment.</p>
+        <p>
+          If the project was to continue, we would for sure have to pivot in our approach. As mentioned above, our
+          current approach is not getting us very far. Therefore, we would mainly change two things. First, we would
+          be much more engaged with the community around our product, as now we were just kind of passively posting.
+          We would be engaging with others, similar profiles, and building a loyal audience.<br><br>
+          Second, we would start creating more engaging, spreadable content; reels, engaging in trends, spreading
+          to TikTok. This would hopefully help us slowly gain a stable uptick of followers and engagement. Even as
+          we introduce the actual product, our social media would remain focused mainly around the community,
+          serving as a funnel to our service.
 
-            <p>
-              If the project was to continue, we would for sure have to pivot in our approach. As mentioned above, our
-              current approach is not getting us very far. Therefore, we would mainly change two things. First, we would
-              be much more engaged with the community around our product, as now we were just kind of passively posting.
-              We would be engaging with others, similar profiles, and building a loyal audience.<br><br>
-              Second, we would start creating more engaging, spreadable content; reels, engaging in trends, spreading
-              to TikTok. This would hopefully help us slowly gain a stable uptick of followers and engagement. Even as
-              we introduce the actual product, our social media would remain focused mainly around the community,
-              serving as a funnel to our service.
+        </p>
 
-            </p>
+        <h4 id="marketing-4" class="mt-4">Professionalism</h4>
 
-            <h4 id="marketing-4" class="mt-4">Professionalism</h4>
+        <p>Present and organize below all social media/online activities of the campaign. Context and material are
+          according
+          to the brand style, image, and vision. Images on the site are of high-quality, readable, and properly
+          designed.</p>
+        <p><b>Instagram</b></p>
+        <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center">
+          <li class="m-2">
+            <a href="https://www.instagram.com/p/Cp91zE8r9GI/">
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta1.jpeg"
+                style="width: 200px;">
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="https://www.instagram.com/p/CqYPEREo6cm/">
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta2.jpeg"
+                style="width: 200px;">
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="https://www.instagram.com/p/CqYiv6ToLIq/">
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta3.jpeg"
+                style="width: 200px;">
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="https://www.instagram.com/p/CqkyyBDoiZ1/">
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta4.jpeg"
+                style="width: 200px;">
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="https://www.instagram.com/p/CqpsNGUoaY3/">
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta5.jpeg"
+                style="width: 200px;">
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="https://www.instagram.com/p/CqxV5z8I7ni/">
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta6.jpeg"
+                style="width: 200px;">
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="https://www.instagram.com/p/CqxWcG7oY-2/">
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta7.jpeg"
+                style="width: 200px;">
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="https://www.instagram.com/p/Cq41EqAI634/">
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta8.jpeg"
+                style="width: 200px;">
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="https://www.instagram.com/p/Cq7yLkCIQNg/">
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta9.jpeg"
+                style="width: 200px;">
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="https://www.instagram.com/p/Cq-K98gogs1/">
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta10.jpeg"
+                style="width: 200px;">
+            </a>
+          </li>
+        </ul>
+        <p><b>Facebook</b></p>
+        <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center">
+          <li class="m-2">
+            <a href="https://www.facebook.com/photo?fbid=120509587656187&set=a.120510357656110">
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/facebook/fb1.jpeg"
+                style="width: 200px;">
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="https://www.facebook.com/photo?fbid=129353283438484&set=a.120510357656110">
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/facebook/fb2.jpeg"
+                style="width: 200px;">
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="https://www.facebook.com/photo?fbid=129477906759355&set=a.120510357656110">
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/facebook/fb3.jpeg"
+                style="width: 200px;">
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="https://www.facebook.com/photo?fbid=132872579753221&set=a.120510357656110">
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/facebook/fb4.jpeg"
+                style="width: 200px;">
+            </a>
+          </li>
+        </ul>
 
-            <p>Present and organize below all social media/online activities of the campaign. Context and material are
-              according
-              to the brand style, image, and vision. Images on the site are of high-quality, readable, and properly
-              designed.</p>
-            <p><b>Instagram</b></p>
-            <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center">
-              <li class="m-2">
-                <a href="https://www.instagram.com/p/Cp91zE8r9GI/">
-                  <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta1.jpeg"
-                    style="width: 200px;">
-                </a>
-              </li>
-              <li class="m-2">
-                <a href="https://www.instagram.com/p/CqYPEREo6cm/">
-                  <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta2.jpeg"
-                    style="width: 200px;">
-                </a>
-              </li>
-              <li class="m-2">
-                <a href="https://www.instagram.com/p/CqYiv6ToLIq/">
-                  <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta3.jpeg"
-                    style="width: 200px;">
-                </a>
-              </li>
-              <li class="m-2">
-                <a href="https://www.instagram.com/p/CqkyyBDoiZ1/">
-                  <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta4.jpeg"
-                    style="width: 200px;">
-                </a>
-              </li>
-              <li class="m-2">
-                <a href="https://www.instagram.com/p/CqpsNGUoaY3/">
-                  <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta5.jpeg"
-                    style="width: 200px;">
-                </a>
-              </li>
-              <li class="m-2">
-                <a href="https://www.instagram.com/p/CqxV5z8I7ni/">
-                  <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta6.jpeg"
-                    style="width: 200px;">
-                </a>
-              </li>
-              <li class="m-2">
-                <a href="https://www.instagram.com/p/CqxWcG7oY-2/">
-                  <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta7.jpeg"
-                    style="width: 200px;">
-                </a>
-              </li>
-              <li class="m-2">
-                <a href="https://www.instagram.com/p/Cq41EqAI634/">
-                  <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta8.jpeg"
-                    style="width: 200px;">
-                </a>
-              </li>
-              <li class="m-2">
-                <a href="https://www.instagram.com/p/Cq7yLkCIQNg/">
-                  <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta9.jpeg"
-                    style="width: 200px;">
-                </a>
-              </li>
-              <li class="m-2">
-                <a href="https://www.instagram.com/p/Cq-K98gogs1/">
-                  <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/instagram/insta10.jpeg"
-                    style="width: 200px;">
-                </a>
-              </li>
-            </ul>
-            <p><b>Facebook</b></p>
-            <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center">
-              <li class="m-2">
-                <a href="https://www.facebook.com/photo?fbid=120509587656187&set=a.120510357656110">
-                  <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/facebook/fb1.jpeg"
-                    style="width: 200px;">
-                </a>
-              </li>
-              <li class="m-2">
-                <a href="https://www.facebook.com/photo?fbid=129353283438484&set=a.120510357656110">
-                  <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/facebook/fb2.jpeg"
-                    style="width: 200px;">
-                </a>
-              </li>
-              <li class="m-2">
-                <a href="https://www.facebook.com/photo?fbid=129477906759355&set=a.120510357656110">
-                  <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/facebook/fb3.jpeg"
-                    style="width: 200px;">
-                </a>
-              </li>
-              <li class="m-2">
-                <a href="https://www.facebook.com/photo?fbid=132872579753221&set=a.120510357656110">
-                  <img alt="Image Placeholder" class="img-thumbnail" src="images/marketing/facebook/fb4.jpeg"
-                    style="width: 200px;">
-                </a>
-              </li>
-            </ul>
+        <!-- End Marketing, start Management -->
 
-            <!-- End Marketing, start Management -->
+        <h2 id="management" class="mt-5">Management</h2>
 
-            <h2 id="management" class="mt-5">Management</h2>
+        <h4 id="management-1" class="mt-2">Lean Canvas (Final version, previous drafts can be found in attachments)
+        </h4>
 
-            <h4 id="management-1" class="mt-2">Lean Canvas (Final version, previous drafts can be found in attachments)
-            </h4>
-
-            <p class="fw-bold">Problem</p>
+        <p class="fw-bold">Problem</p>
+        <ul>
+          <li>List your top 3 problems you solve for your target group.
             <ul>
-                <li>List your top 3 problems you solve for your target group.
-                    <ul>
-                        <li>1. Diminishing / lack of connection to home</li>
-                        <li>2. Unavailability of specific local items</li>
-                        <li>3. Inability to travel home frequently / difficulty with transporting specific items (limited
-                            space, liquids, perishables etc)</li>
-                    </ul>
-                </li>
-                <li>Describe briefly how the problems are solved now (existing alternatives).
-                    <ul>
-                        <li>1. Telephonic contact, video chat, vacations home, reading local news</li>
-                        <li>2. Looking for alternatives, cooking/making these items at home, bulk buying and taking on a plane</li>
-                        <li>3. Focus on work, simply having to wait</li>
-                    </ul>
-                </li>
+              <li>1. Diminishing / lack of connection to home</li>
+              <li>2. Unavailability of specific local items</li>
+              <li>3. Inability to travel home frequently / difficulty with transporting specific items (limited
+                space, liquids, perishables etc)</li>
             </ul>
-            <p class="fw-bold">Solution</p>
+          </li>
+          <li>Describe briefly how the problems are solved now (existing alternatives).
             <ul>
-                <li>Outline the brand solution you have for the above problem(s).</li>
-                <li>
-                    Our solution is a subscription crate (homecrate) comprised of items, foodstuffs, and goodies from any
-                    expats given the country
-                    of origin. Though we cannot replace the human connection, we can lessen the sense of diminishing
-                    connection by sparking
-                    feelings of nostalgia and joy, as well as physically reminding our customers of their home countries
-                    through their senses.
-                    Flavors, smells, sights, and touches can all evoke emotional responses, and the crates from Homecrate will
-                    all be filled
-                    with items specifically selected to evoke these responses, reigniting our customers' connection to their
-                    home. They will no longer need to look for supplements or alternatives or make them at home. They will also not
-                need to pack
-                an extra suitcase to make space for these items.
-            </li>
+              <li>1. Telephonic contact, video chat, vacations home, reading local news</li>
+              <li>2. Looking for alternatives, cooking/making these items at home, bulk buying and taking on a plane
+              </li>
+              <li>3. Focus on work, simply having to wait</li>
             </ul>
-            <p class="fw-bold">Customer segments</p>
+          </li>
+        </ul>
+        <p class="fw-bold">Solution</p>
+        <ul>
+          <li>Outline the brand solution you have for the above problem(s).</li>
+          <li>
+            Our solution is a subscription crate (homecrate) comprised of items, foodstuffs, and goodies from any
+            expats given the country
+            of origin. Though we cannot replace the human connection, we can lessen the sense of diminishing
+            connection by sparking
+            feelings of nostalgia and joy, as well as physically reminding our customers of their home countries
+            through their senses.
+            Flavors, smells, sights, and touches can all evoke emotional responses, and the crates from Homecrate will
+            all be filled
+            with items specifically selected to evoke these responses, reigniting our customers' connection to their
+            home. They will no longer need to look for supplements or alternatives or make them at home. They will also
+            not
+            need to pack
+            an extra suitcase to make space for these items.
+          </li>
+        </ul>
+        <p class="fw-bold">Customer segments</p>
+        <ul>
+          <li>List your target customers and/or users.
             <ul>
-                <li>List your target customers and/or users.
-                    <ul>
-                        <li>Expats (and non-local students)</li>
-                        <li>20-40yo</li>
-                        <li>Working or studying</li>
-                    </ul>
-                </li>
-                <li>Describe briefly the characteristics of your ideal customer (early adopter, brand persona).
-                    <ul>
-                        <li>Instagram/Facebook user</li>
-                        <li>Nostalgia for their home country</li>
-                        <li>Keep in touch with relatives</li>
-                        <li>Sentimental</li>
-                        <li>Nostalgic</li>
-                    </ul>
-                </li>
+              <li>Expats (and non-local students)</li>
+              <li>20-40yo</li>
+              <li>Working or studying</li>
             </ul>
-            <p class="fw-bold">Unique value proposition</p>
+          </li>
+          <li>Describe briefly the characteristics of your ideal customer (early adopter, brand persona).
             <ul>
-                <li>
-                    When talking to expats, one problem that always comes up is homesickness. Yet there is
-                    no company trying to do anything about this. Homecrate Provides a unique
-                    service that delivers curated packages of items from expats' home countries straight to their
-                    doorstep. This way they can still have a piece of home with them, that they won't have to miss.
-                </li>
+              <li>Instagram/Facebook user</li>
+              <li>Nostalgia for their home country</li>
+              <li>Keep in touch with relatives</li>
+              <li>Sentimental</li>
+              <li>Nostalgic</li>
             </ul>
-            <p class="fw-bold">Unfair advantage</p>
+          </li>
+        </ul>
+        <p class="fw-bold">Unique value proposition</p>
+        <ul>
+          <li>
+            When talking to expats, one problem that always comes up is homesickness. Yet there is
+            no company trying to do anything about this. Homecrate Provides a unique
+            service that delivers curated packages of items from expats' home countries straight to their
+            doorstep. This way they can still have a piece of home with them, that they won't have to miss.
+          </li>
+        </ul>
+        <p class="fw-bold">Unfair advantage</p>
+        <ul>
+          <li>Deep understanding of expat emotions and needs, based on our founders' firsthand experiences</li>
+          <li>Thoughtfully curated packages tailored to specific countries and cultures</li>
+          <li>Strong relationships with local artisans and suppliers from various countries to ensure authenticity</li>
+        </ul>
+        <p class="fw-bold">Channels</p>
+        <ul>
+          <li>List your main path to customers.
             <ul>
-                <li>Deep understanding of expat emotions and needs, based on our founders' firsthand experiences</li>
-                <li>Thoughtfully curated packages tailored to specific countries and cultures</li>
-                <li>Strong relationships with local artisans and suppliers from various countries to ensure authenticity</li>
+              <li>Instagram</li>
+              <li>Facebook</li>
+              <li>Word-of-mouth</li>
             </ul>
-            <p class="fw-bold">Channels</p>
+          </li>
+        </ul>
+        <p class="fw-bold">Key metrics</p>
+        <ul>
+          <li>List the key numbers that tell you how your brand experience is doing.
             <ul>
-                <li>List your main path to customers.
-                    <ul>
-                        <li>Instagram</li>
-                        <li>Facebook</li>
-                        <li>Word-of-mouth</li>
-                    </ul>
-                </li>
+              <li>Over the past week (6-12.4) we have had 13 new visitors, with an average time spent on the website
+                belonging
+                1 minute and 26 seconds. </li>
+              <li>Over the past 2 weeks, we gathered 26 Instagram followers, and 4 Facebook page likes</li>
+              <li>Over the past 2 weeks, we gathered 33 Instagram likes, and 6 Facebook likes</li>
             </ul>
-            <p class="fw-bold">Key metrics</p>
+          </li>
+        </ul>
+        <p class="fw-bold">Revenue streams</p>
+        <ul>
+          <li>List your sources of revenue: describe the revenue model and the (different) revenue stream(s).
             <ul>
-                <li>List the key numbers that tell you how your brand experience is doing.
-                    <ul>
-                        <li>Over the past week (6-12.4) we have had 13 new visitors, with an average time spent on the website
-                            belonging
-                            1 minute and 26 seconds. </li>
-                        <li>Over the past 2 weeks, we gathered 26 Instagram followers, and 4 Facebook page likes</li>
-                        <li>Over the past 2 weeks, we gathered 33 Instagram likes, and 6 Facebook likes</li>
-                    </ul>
-                </li>
+              <li>Subscriptions - First, we have the main source of revenue, the actual subscription itself.
+                This is the regular amount our customers pay to periodically receive packages. It is a stable,
+                regular, growing source of income. </li>
+              <li>Sponsors - Then, we will be in dealings with companies willing to sponsor us, in exchange
+                for promoting their products in our crate. These companies will pay us for ads in the boxes,
+                as well as provide us with items we can include in the crates.</li>
             </ul>
-            <p class="fw-bold">Revenue streams</p>
-            <ul>
-                <li>List your sources of revenue: describe the revenue model and the (different) revenue stream(s).
-                    <ul>
-                        <li>Subscriptions - First, we have the main source of revenue, the actual subscription itself.
-                            This is the regular amount our customers pay to periodically receive packages. It is a stable,
-                            regular, growing source of income. </li>
-                        <li>Sponsors - Then, we will be in dealings with companies willing to sponsor us, in exchange
-                            for promoting their products in our crate. These companies will pay us for ads in the boxes,
-                            as well as provide us with items we can include in the crates.</li>
-                    </ul>
-                </li>
-            </ul>
+          </li>
+        </ul>
         <p class="fw-bold">Cost structure</p>
         <ul>
           <li>List your main costs: define the fixed and variable costs, and calculate the cost per unit.
-            <ul><b>Fixed Costs (monthly):</b>
+            <ul>
+              <li><strong>Fixed Costs (monthly):</strong></li>
               <li>Office rent: 1,000€</li>
               <li>Utilities (electricity, water, internet): 200€</li>
               <li>Salaries (founders, marketing, operations): 9,000€</li>
               <li>Website maintenance and hosting: 100€</li>
               <li>Marketing and advertising: 1,500€</li>
-              <b>Total Fixed Costs: 11,800€ per month</b>
-            </ul><br>
-            <ul><b>Variable Costs (per unit):</b>
+              <li><strong>Total Fixed Costs: 11,800€ per month</strong></li>
+            </ul>
+            <ul>
+              <li><strong>Variable Costs (per unit):</strong></li>
               <li>Products (snacks, goodies, cultural items): 17€ (after negotiating with suppliers)</li>
               <li>Packaging materials (box, padding, labels): 2.50€</li>
               <li>Shipping costs (average, depending on destination): 12€</li>
               <li>Payment processing fees: 1€</li>
-              <b>Total Variable Costs: 32.50€ per unit</b>
+              <li><strong>Total Variable Costs: 32.50€ per unit</strong></li>
             </ul>
             <ul>
-              <br>
               <li>Assuming a monthly subscription price of 59€ per box, the gross profit
-                per unit would be 26.50€ (59€ - 32.50€).<br>
-
+                per unit would be 26.50€ (59€ - 32.50€).
+              </li>
+              <li>
                 To calculate the cost per unit, including fixed costs, let's assume that
                 we have managed to acquire 700 subscribers per month. In this case, the total fixed
-                costs per unit would be 11,800€ / 700 = 16.86€<br>
-
-                <b>Total cost per unit (including fixed and variable costs):
-                  32.50€ (variable) + 16.86€ (fixed) = 49.36€</b>
+                costs per unit would be 11,800€ / 700 = 16.86€
               </li>
-            </ul><br>
+              <li>
+                <strong>Total cost per unit (including fixed and variable costs):
+                  32.50€ (variable) + 16.86€ (fixed) = 49.36€</strong>
+              </li>
+            </ul>
           </li>
         </ul>
         <p class="fw-bold">Services/products</p>
-
-        State what your product and/or service is and how this contributes to your unique value proposition, and
-        clarify the fit between the product/service developed and the brand identity/brand image.
+        <p>
+          State what your product and/or service is and how this contributes to your unique value proposition, and
+          clarify the fit between the product/service developed and the brand identity/brand image.
+        </p>
         <ul>
-          Homecrate offers a one-of-a-kind subscription service that delivers curated packages containing food,
-          goodies, and nostalgic items from expats home countries. By addressing the universal challenge of
-          homesickness faced by expats, our service sets itself apart from other expat oriented products and
-          caters specifically to a niche, yet sizable, market segment.<br><br>
-
-          Our unique value proposition is directly linked to the core of our brand identity - creating
-          connections and evoking the warmth of home. Homecrate's service is designed to provide a tangible
-          reminder of the customs, flavors, and memories that expats hold dear, reinforcing their cultural
-          identity even while they reside in a foreign country.<br><br>
-
-          The brand image of Homecrate is built around the concepts of warmth, nostalgia, and personalization.
-          Our service aligns seamlessly with this image by offering a tailored experience for every subscriber,
-          ensuring that each package is filled with items that hold sentimental value and evoke memories. This
-          strong alignment between our product, unique value proposition, brand identity, and brand image enables
-          us to effectively communicate and deliver on our promise to bring a piece of home to expats, no matter
-          where they may be in the world.
+          <li>
+            Homecrate offers a one-of-a-kind subscription service that delivers curated packages containing food,
+            goodies, and nostalgic items from expats' home countries. By addressing the universal challenge of
+            homesickness faced by expats, our service sets itself apart from other expat oriented products and
+            caters specifically to a niche, yet sizable, market segment.
+          </li>
+          <li>
+            Our unique value proposition is directly linked to the core of our brand identity - creating
+            connections and evoking the warmth of home. Homecrate's service is designed to provide a tangible
+            reminder of the customs, flavors, and memories that expats hold dear, reinforcing their cultural
+            identity even while they reside in a foreign country.
+          </li>
+          <li>
+            The brand image of Homecrate is built around the concepts of warmth, nostalgia, and personalization.
+            Our service aligns seamlessly with this image by offering a tailored experience for every subscriber,
+            ensuring that each package is filled with items that hold sentimental value and evoke memories. This
+            strong alignment between our product, unique value proposition, brand identity, and brand image enables
+            us to effectively communicate and deliver on our promise to bring a piece of home to expats, no matter
+            where they may be in the world.
+          </li>
         </ul>
-
         <h4 id="management-2" class="mt-2">Validation of Assumptions</h4>
-        <p>Write a reflection on the choices made in creating choosing the trademark, including an analysis
-          of the existing alternatives.</p>
-
+        <p>Write a reflection on the choices made in creating and choosing the trademark, including an analysis
+          of the existing alternatives.
+        </p>
         <ul>
-          <p>When creating and developing the Homecrate trademark, our intention was to develop a brand that
-            resonated personally with the expat community. We picked it because we saw and understood the
-            unique emotional needs and challenges faced by those living away from their home countries.
-            This played a significant role in shaping the brand's identity, image, and unique value proposition.</p>
-
-          <p>The existing alternatives for tackling homesickness among expats largely focused on communication
-            with friends and family, or maybe trying to recreate a taste of home by making local dishes from
-            scratch. However, these do not fully address the emotional and sensory connection to one's home
-            country. With Homecrate, we saw an opportunity to fill this gap by providing a thoughtfully curated
-            subscription service that delivered a piece of home directly to expats.</p>
-
-          <p>The trademark "Homecrate" was chosen to evoke a sense of warmth and nostalgia while also
-            communicating the core offering of the service—a crate filled with items reminiscent of home.
-            The name is easily relatable and memorable, creating an instant connection with the target audience.</p>
-
-          <p>The brand's values, unique value proposition, and marketing materials all reflect a genuine
-            understanding of the expat experience. They emphasize the importance of staying connected to
-            one's roots and creating a sense of belonging through shared memories and emotions. The brand
-            is built on a foundation of empathy, personal connection, and cultural understanding, which
-            sets it apart from existing alternatives and creates a strong emotional bond with the target audience.</p>
+          <li>
+            <p>When creating and developing the Homecrate trademark, our intention was to develop a brand that
+              resonated personally with the expat community. We picked it because we saw and understood the
+              unique emotional needs and challenges faced by those living away from their home countries.
+              This played a significant role in shaping the brand's identity, image, and unique value proposition.</p>
+          </li>
+          <li>
+            <p>The existing alternatives for tackling homesickness among expats largely focused on communication
+              with friends and family, or maybe trying to recreate a taste of home by making local dishes from
+              scratch. However, these do not fully address the emotional and sensory connection to one's home
+              country. With Homecrate, we saw an opportunity to fill this gap by providing a thoughtfully curated
+              subscription service that delivered a piece of home directly to expats.</p>
+          </li>
+          <li>
+            <p>The trademark "Homecrate" was chosen to evoke a sense of warmth and nostalgia while also
+              communicating the core offering of the service—a crate filled with items reminiscent of home.
+              The name is easily relatable and memorable, creating an instant connection with the target audience.</p>
+          </li>
+          <li>
+            <p>The brand's values, unique value proposition, and marketing materials all reflect a genuine
+              understanding of the expat experience. They emphasize the importance of staying connected to
+              one's roots and creating a sense of belonging through shared memories and emotions. The brand
+              is built on a foundation of empathy, personal connection, and cultural understanding, which
+              sets it apart from existing alternatives and creates a strong emotional bond with the target audience.</p>
+          </li>
         </ul>
 
 
