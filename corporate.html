@@ -55,6 +55,7 @@
             <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#production">Production</a>
             <nav class="nav d-none d-sm-flex flex-column mb-2">
               <a class="nav-link ms-3 p-0 mb-2" href="#production-1">Design Elements</a>
+              <a class="nav-link ms-3 p-0 mb-2" href="#production-2.4">Website Purpose</a>
               <a class="nav-link ms-3 p-0 mb-2" href="#production-2.5">Limitations</a>
               <a class="nav-link ms-3 p-0 mb-2" href="#production-2">Credits</a>
               <a class="nav-link ms-3 p-0 mb-2" href="#production-3">Testing Report</a>
@@ -180,24 +181,42 @@
                 </li><br>
                 <li>User Interface Patterns: <br><br>
                     <ul>
-                     <em><b>Grids:</b> The design uses flex containers for structure, allowing for responsive
-                     layouts and easy organization of content. The use of grids enables a clean and consistent 
-                     layout, which reflects the brand's professionalism and attention to detail.<br><br>
+                     <em><b>Navigation bar:</b> A horizontal navigation bar that provides users with easy 
+                      access to different pages on the website. The navigation links include Home, Values, Visuals, 
+                      Corporate, Product, and Contact.<br><br>
 
-                     <b>Dropdown Menu:</b> The navigation features a dropdown menu, which help in organizing 
-                     content into categories, enabling users to navigate the site efficiently. The 
-                     organized menu structure makes it easy for users to navigate the site, reinforcing Homecrate's 
-                     focus on providing a user-friendly experience that caters to the needs of expats seeking a taste of home.<br><br>
+                     <b>Dropdown menu (phone only):</b> The navigation bar is responsive and collapses into a 
+                     dropdown menu when the website is viewed on mobile devices. This is implemented using the 
+                     Bootstrap "navbar-toggler" class and a button that toggles the menu's visibility.<br><br>
 
-                     <b>Carousel:</b> The homepage features a carousel with three images, showcasing the company slogan ina dynamic way, and 
-                     adds a dynamic visual element to the page.<br><br>
+                     <b>Links:</b> The navigation links are used to navigate the website, directing users to the 
+                     corresponding pages. These are created using the "nav-link" class.<br><br>
+
+                     <b>Carousel:</b> A carousel is used to showcase a series of images in a slideshow format. 
+                     The carousel is created using the "carousel" class and related attributes to control its 
+                     behavior, such as autoplay, looping, and navigation controls.<br><br>
+
+                     <b>iframe (video box):</b> An iframe is used to embed a YouTube video on the website. The 
+                     video is set to autoplay, loop, and mute, with controls hidden. The iframe is wrapped in 
+                     a "video-container" div, which also includes an overlay with the brand name.<br><br>
+
+                     <b>Text box:</b> Text boxes are used for submitting an email adress when signing up for the Homecrate
+                     newsletter, as well as sending us a custom message<br><br>
+
+                     <b>Button:</b> Buttons are used for submitting a message for Homecrate, subscribing to the
+                     newsletter, and visiting our Facebook and Instagram pages<br><br>
+
+                     <b>Footer:</b> The footer contains copyright information, social media icons, and links to 
+                     the brand's social media pages. It is styled using the "sticky-bottom" class to ensure it 
+                     stays at the bottom of the page.<br><br>
+
+                     <b>Grids:</b> The layout of the content is organized using Bootstrap's grid system, with 
+                     "container-fluid," "row," and "col" classes to create a responsive and flexible layout.<br><br>
                         
-                     <b>Video Container:</b> The video container is responsive and positioned centrally, ensuring a 
-                     consistent viewing experience across different devices. Video containers allow for the 
-                     showcasing of customer testimonials and product unboxing experiences, which helps create an 
-                     emotional connection between the brand and its target audience.<br><br></em>
-                    </li>
+                     <b>Divs:</b> The content is wrapped in div elements to group and style related elements. These 
+                     divs are used in conjunction with the Bootstrap grid system to create a structured and organized layout.<br><br></em>
                     </ul>
+                    </li>
                  <li>Structure of the Navigation and Content: <br><br>
                      <em>The navigation is organized into a horizontal main menu, which provides easy browsing and 
                         access to content categories. While the desktop version does not have dropdown submenus, the 
@@ -208,6 +227,26 @@
                         may be accessing the website from different devices and locations.</em>
                  </li><br>
           </ul>
+          <h4 id="production-2.4" class="mt-2">Website Purpose</h4>
+          <p>The purpose of this website - pre-launch website for our brand.</p>
+          <ul>
+            <p><em>
+              There are a few reasons why it makes sense for Homecrate to have a pre-launch website:<br>
+
+              Our pre-launch website is a great way for us to spark interest in Homecrate before the big day arrives. 
+              By giving future customers a sneak peek at what we have to offer, we're igniting their curiosity and 
+              creating a buzz around our brand, setting the stage for a successful launch.<br>
+
+              Additionally, the website helps us understand our audience better. We can see what catches their attention, 
+              gather their feedback, and use this valuable information to fine-tune our offerings and marketing strategies. 
+              It's like having a conversation with our potential customers, making sure we're on the right track.<br>
+
+              Lastly, the website is our playground for perfecting our message and brand positioning. By observing how visitors 
+              interact with our content and listening to their input, we can craft a communication strategy that truly 
+              resonates with our target audience, ensuring that our voice is both clear and compelling.
+            </em></p>
+          </ul>
+          
           <h4 id="production-2.5" class="mt-2">Limitations</h4>
           <p>Technical and circumstancial limitations asociated with development of the website</p>
           <ul>
@@ -224,8 +263,15 @@
               our classmates and frineds, a lot of whom, while not expacts by definition (because students do not officially
               count as expats), do come from different countries, making their experience similar in many ways.
             </li>
-            <li>4</li>
+            <li>Our "Newsletter" and "Message us" options actually lead nowhere; this is because we are not actually gathering
+              any data or emails. They are just a proof of concept.
+            </li>
+            <li>Also, the "Newsletter" and "Message us" options were very late additions, and therfore, were not part of the first
+              couple of testing. Had we had them earlier, we would have included them; however, as it is, only the later interviews
+              now have this question.
+            </li>
           </ul>
+
           <h4 id="production-2" class="mt-2">Credits</h4>
           <ul>
             <li>HTML templates: None (this "corporate" page is the only template)</li>
@@ -236,20 +282,51 @@
             </li> 
           </ul>
           <h4 id="production-3" class="mt-2">Testing Report</h4>
-          <p>Please write about&hellip;</p>
           <ul>
-            <li>Your testing <strong>goals</strong> &ndash; in other words, what you are trying to learn about your website?</li>
-            <li>Your testing <strong>methods</strong>, which includes information about:
+            <li>Your testing goals: what you are trying to learn about your website?
               <ul>
-                <li>The test&rsquo;s <strong>participants</strong> (number, match with target audience, etc.)
-                <li>The test&rsquo;s <strong>setting</strong> (which material is used, is it done remotely, on campus, at home, etc.)
-                <li>The test&rsquo;s <strong>protocol</strong> (what instructions are given, how it is recorded, etc.)
+                <li>Since our website is a pre-launch website, we are mainly trying to learn how well visitors 
+                  can navigate the basic layout and find out information about the brand. The website is quite 
+                  simple in its structure, only having the one navigation which leads to the different parts of 
+                  the page. As a result, in our testing, we tested how effectively visitors can reach and find 
+                  different information about our company.
               </ul>
             </li>
-            <li>Your testing <strong>results</strong>, which includes information about:
+            <li>Your testing methods which includes information about:
+              <ul>
+                <li>The test&rsquo;s <b>participants</b>(number, match with target audience, etc.) - 6 participants, most 
+                  of them foreigners, though none specifically labeled “Expats”, as they were all students, and 
+                  expats must be full time workers. It included both men and women, from the ages of 19 - 24.
+                <li>The test&rsquo;s <b>setting</b> (which material is used, is it done remotely, on campus, at home, etc.) - 
+                  The test was conducted with simple verbal instructions, a new one given every time a task has 
+                  been completed. It was done on campus, with a variety of devices.
+                <li>The test&rsquo;s <b>protocol</b> (what instructions are given, how it is recorded, etc.) - Instructions: 
+                  [Find and read through our values - Then, go to the home page, and read about the founders of 
+                  Homecrate - Then, find the font we use - Then, use our website to go directly to our Facebook 
+                  profile - Lastly, sign up to our newsletter, or send us a message]. We recorded the screen and 
+                  participants using a phone camera, always assigning a new task when the previous one was 
+                  completed and intervening as little as possible.
+              </ul>
+            </li>
+            <li>Your testing results, which includes information about:
               <ul>
                 <li>Positive and negative aspects of the UI/UX that have been identified, ranked by importance.</li>
-                <li>Improvements that have been implemented on the final website (or that would be implemented if doing so would be too complex)</li>
+                <ul>
+                  <li>Positives: Nobody was confused about navigating the actual site, the menu was clear, and visitors 
+                    were able to identify the different buttons to move around. They were all able to find all the 
+                    information in a relatively timely manner.</li>
+                  <li>Negatives: Some people got confused when asked to find the information about the founders, 
+                    for which they had to scroll down the home page. A lot of them went to the then present 
+                    “contacts” tab. Some also clicked on elements which were not clickable.</li>
+                </ul>
+                <li>Improvements that have been implemented on the final website (or that would be implemented 
+                  if doing so would be too complex) - “Contact” page was specified to “contact us”, and a space 
+                  to leave a message and email was added. This was both to capture visitors and start building 
+                  a base, but also to make it more clear what the point of the page is. Also, links to our 
+                  Facebook and Instagram were added to the “Contact us” page; previously they were only in 
+                  the footer, making them hard to find. Info from “Product” page was moved to home page, 
+                  to reduce the number of clickable items. At the bottom of the home page, the option to 
+                  subscribe to our newsletter was added, so that we can start to build a base of customers.</li>
               </ul>
             </li>
           </ul>
