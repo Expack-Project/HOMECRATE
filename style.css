@@ -105,6 +105,10 @@ display: block;
 line-height: 60px;
 }
 
+nav {
+	box-shadow: 0px 8px 8px -6px rgba(0,0,0,.3);
+  }
+
 header nav#menu-area ul li:hover>a {
 background: #555555;
 }
